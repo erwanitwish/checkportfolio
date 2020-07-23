@@ -23,6 +23,7 @@ export default function TopHome() {
         </h1>
         <p className='subtitle'>Développeur web et web mobile</p>
       </div>
+      <div className='arrow'>Scroll</div>
     </div>
   );
 }

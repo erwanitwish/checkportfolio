@@ -12,7 +12,6 @@
   z-index: 1000;
   position: fixed;
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -37,6 +36,9 @@
   align-items: flex-end;
   justify-content: flex-end;
   margin: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 
 .menu ul {
@@ -68,6 +70,7 @@
 
 .background {
   width: 70%;
+  object-fit: cover;
 }
 
 .title {
@@ -89,6 +92,16 @@
   margin: 10px 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
+}
+
+.arrow {
+  z-index: 10001;
+  position: absolute;
+  padding-bottom: 100px;
+  bottom: 0;
+  left: 10%;
+  writing-mode: vertical-rl;
+  border-left: 1px solid rgb(30, 30, 30);
 }
 
 /* about Me */
@@ -136,15 +149,42 @@
 
 .portrait {
   width: 40%;
-  margin-top: 100px;
 }
 
 /* portfolio */
 
 .portfolio {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-right {
+  align-self: flex-end;
+  margin-right: 100px;
+  margin-bottom: 100px;
 }
 
 .project-image {
-  width: 40%;
+  width: 50%;
+}
+
+.project-title {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.project-description {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.portfolio div:nth-child(2n + 1) {
+  text-align: right;
+  margin-right: 100px;
+}
+
+.portfolio div:nth-child(2n) {
+  margin-left: 100px;
 }
