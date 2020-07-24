@@ -1,9 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   color: rgb(30, 30, 30);
   font-family: "Montserrat", sans-serif;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  background-color: rgb(225, 226, 228);
+  height: 150px;
+}
+
+.center-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+a,
+a:active {
+  text-decoration: none;
+  color: rgb(30, 30, 30);
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* overlay */
@@ -76,7 +107,7 @@
 .title {
   position: absolute;
   left: 20%;
-  top: 40%;
+  top: 35%;
 }
 
 .name {
@@ -187,4 +218,91 @@
 
 .portfolio div:nth-child(2n) {
   margin-left: 100px;
+}
+
+/* Contact */
+
+.contact {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 30px;
+}
+
+.contact-content {
+  border: rgb(30, 30, 30) solid 3px;
+  margin-top: 30px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-left,
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* BLOG */
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 30px;
+}
+
+.blog-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+/* BackOffice */
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-blog {
+  display: flex;
+  width: 100%;
+}
+
+.new-post {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-post {
+  display: flex;
+  flex-direction: column;
+}
+
+.postList {
+  width: 50%;
+}
+
+.back-post {
+  border: rgb(30, 30, 30) solid 1px;
+  padding: 20px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.form-post input,
+.form-post textarea,
+.form-post button {
+  margin-bottom: 30px;
 }

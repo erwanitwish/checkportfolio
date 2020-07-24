@@ -8,15 +8,24 @@ export default function Overlay() {
     <div className='overlay'>
       <div className='nav-top'>
         <div className='logo'>
-          <img src={LogoPerso} />
+          <a href='#top'>
+            <img src={LogoPerso} />
+          </a>
         </div>
         <div className='menu'>
           <ul>
             <li>
               <a href='#about'>About</a>
             </li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li>
+              <a href='#portfolio'>Portfolio</a>
+            </li>
+            <li>
+              <a href='#contact'>Contact</a>
+            </li>
+            <li>
+              <a href='#blog'>Blog</a>
+            </li>
           </ul>
         </div>
       </div>

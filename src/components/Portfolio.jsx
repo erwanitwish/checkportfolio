@@ -21,7 +21,9 @@ export default function Portfolio() {
 
   return (
     <div className='portfolio'>
-      <h2 className='part-title title-right'>PORTFOLIO</h2>
+      <h2 className='part-title title-right' id='portfolio'>
+        PORTFOLIO
+      </h2>
       {Projects.map((project) => (
         <Project
           number={project.Number}

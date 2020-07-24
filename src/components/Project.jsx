@@ -1,4 +1,6 @@
 import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function Project({
   number,
@@ -8,10 +10,11 @@ export default function Project({
   linkReal,
   linkGitHub,
 }) {
+  AOS.init();
   return (
     <div
       data-aos='fade-right'
-      data-aos-duration='5000'
+      data-aos-duration='3000'
       className='project'
       key={title}
     >
