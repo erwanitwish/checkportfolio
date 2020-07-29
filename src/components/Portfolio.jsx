@@ -10,7 +10,9 @@ export default function Portfolio() {
   useEffect(() => {
     const getProjects = async () => {
       try {
-        const projectsList = await axios.get(`http://localhost:8080/project`);
+        const projectsList = await axios.get(
+          `https://portfolio-back.portfolio.erwanquillec.com/project`
+        );
         setProjects(projectsList.data);
       } catch (err) {
         setError(err);
