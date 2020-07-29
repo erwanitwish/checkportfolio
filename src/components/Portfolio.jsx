@@ -13,6 +13,7 @@ export default function Portfolio() {
         const projectsList = await axios.get(
           `https://portfolio-back.portfolio.erwanquillec.com/project`
         );
+        console.log(projectsList);
         setProjects(projectsList.data);
       } catch (err) {
         setError(err);
