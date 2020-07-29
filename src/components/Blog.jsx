@@ -11,7 +11,7 @@ export default function Blog() {
   useEffect(() => {
     const getPosts = async () => {
       try {
-        const posts = await axios.get(`http://localhost:8080/ost`);
+        const posts = await axios.get(`http://localhost:8080/post`);
         setPosts(posts.data);
         setImage(Posts[Posts.length - 1].image);
       } catch (err) {
@@ -33,7 +33,7 @@ export default function Blog() {
         </div>
       ) : (
         <div className='blog-content'>
-          <img src='' alt={Posts[Posts.length - 1].title} />
+          {/* <img src='' alt={Posts[Posts.length - 1].title} /> */}
           <h3>{Posts[Posts.length - 1].title}</h3>
         </div>
       )}

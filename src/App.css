@@ -42,7 +42,7 @@ a:hover {
 .overlay {
   z-index: 1000;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -108,6 +108,7 @@ a:hover {
   position: absolute;
   left: 20%;
   top: 35%;
+  mix-blend-mode: hard-light;
 }
 
 .name {
@@ -305,4 +306,35 @@ a:hover {
 .form-post textarea,
 .form-post button {
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 730px) {
+  .name {
+    font-size: 3rem;
+  }
+
+  .about-me {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .about-left {
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-right {
+    width: 80%;
+    margin: 0;
+  }
+
+  .portfolio  {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
