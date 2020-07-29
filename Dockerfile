@@ -7,7 +7,6 @@ ARG REACT_APP_API_BASE_URL=${REACT_APP_API_BASE_URL}
 ENV REACT_APP_API_BASE_URL=${REACT_APP_API_BASE_URL}
 COPY . /usr/src/app
 RUN npm install
-RUN npm run build
 
 # production environment
 FROM nginx:1.13.9-alpine
