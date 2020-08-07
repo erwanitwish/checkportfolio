@@ -17,7 +17,9 @@ export default function AwesomeList() {
   useEffect(() => {
     const getList = async () => {
       try {
-        const list = await axios.get(`http://localhost:8080/project`);
+        const list = await axios.get(
+          `https://portfolio-back.portfolio.erwanquillec.com/project`
+        );
         setState({ ...state, data: list.data });
         console.log(state);
       } catch (err) {
