@@ -197,6 +197,15 @@ a:hover {
   margin-bottom: 100px;
 }
 
+.project {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.project-details {
+  margin-left: 20px;
+}
+
 .project-image {
   width: 50%;
 }
@@ -212,14 +221,14 @@ a:hover {
   margin-top: 5px;
 }
 
-.portfolio div:nth-child(2n + 1) {
+/* .portfolio div:nth-child(2n + 1) {
   text-align: right;
   margin-right: 100px;
 }
 
 .portfolio div:nth-child(2n) {
   margin-left: 100px;
-}
+} */
 
 /* Contact */
 
