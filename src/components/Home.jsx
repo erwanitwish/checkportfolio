@@ -15,7 +15,7 @@ export default function Home() {
       <Portfolio />
       <div className='two-columns'>
         <Contact />
-        <Blog />
+        {/* <Blog /> */}
       </div>
       <div className='footer'>
         <h2 className='part-title center-title'>À BIENTÔT</h2>

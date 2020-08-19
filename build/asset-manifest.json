@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.bfab73ee.chunk.css",
-    "main.js": "/static/js/main.68a56a75.chunk.js",
-    "main.js.map": "/static/js/main.68a56a75.chunk.js.map",
+    "main.js": "/static/js/main.307cc11c.chunk.js",
+    "main.js.map": "/static/js/main.307cc11c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.93623cfc.js",
     "runtime-main.js.map": "/static/js/runtime-main.93623cfc.js.map",
     "static/css/2.4707e12a.chunk.css": "/static/css/2.4707e12a.chunk.css",
-    "static/js/2.3a3ab162.chunk.js": "/static/js/2.3a3ab162.chunk.js",
-    "static/js/2.3a3ab162.chunk.js.map": "/static/js/2.3a3ab162.chunk.js.map",
+    "static/js/2.5a03fe30.chunk.js": "/static/js/2.5a03fe30.chunk.js",
+    "static/js/2.5a03fe30.chunk.js.map": "/static/js/2.5a03fe30.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4f0bb8c4b9aea6654ea3b9664bccd59e.js": "/precache-manifest.4f0bb8c4b9aea6654ea3b9664bccd59e.js",
+    "precache-manifest.20994494a4716b9a02e1f320e7baa7d7.js": "/precache-manifest.20994494a4716b9a02e1f320e7baa7d7.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.bfab73ee.chunk.css.map": "/static/css/main.bfab73ee.chunk.css.map",
-    "static/js/2.3a3ab162.chunk.js.LICENSE.txt": "/static/js/2.3a3ab162.chunk.js.LICENSE.txt",
+    "static/js/2.5a03fe30.chunk.js.LICENSE.txt": "/static/js/2.5a03fe30.chunk.js.LICENSE.txt",
     "static/media/Aneta.jpg": "/static/media/Aneta.939b59b9.jpg",
     "static/media/ai.png": "/static/media/ai.a692daaa.png",
     "static/media/atom.png": "/static/media/atom.dc0a35a7.png",
@@ -29,6 +29,7 @@
     "static/media/milky.jpg": "/static/media/milky.f2180a83.jpg",
     "static/media/nodejs.png": "/static/media/nodejs.44b40adc.png",
     "static/media/overview_arsenic.png": "/static/media/overview_arsenic.77a8454d.png",
+    "static/media/overview_doctolib.jpg": "/static/media/overview_doctolib.204e28fa.jpg",
     "static/media/overview_manny.png": "/static/media/overview_manny.f243f47e.png",
     "static/media/overview_teleport.png": "/static/media/overview_teleport.5655b46a.png",
     "static/media/portrait.jpg": "/static/media/portrait.a0c9c2cf.jpg",
@@ -38,8 +39,8 @@
   "entrypoints": [
     "static/js/runtime-main.93623cfc.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.3a3ab162.chunk.js",
+    "static/js/2.5a03fe30.chunk.js",
     "static/css/main.bfab73ee.chunk.css",
-    "static/js/main.68a56a75.chunk.js"
+    "static/js/main.307cc11c.chunk.js"
   ]
 }

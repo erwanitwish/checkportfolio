@@ -23,9 +23,9 @@ export default function Overlay() {
             <li>
               <a href='#contact'>Contact</a>
             </li>
-            <li>
+            {/* <li>
               <a href='#blog'>Blog</a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

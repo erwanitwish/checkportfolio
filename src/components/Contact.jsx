@@ -12,11 +12,11 @@ export default function Contact() {
       <div className='contact-content'>
         <div className='contact-left'>
           <h3>Erwan Quillec</h3>
-          <p>Nantes</p>
         </div>
         <div className='contact-right'>
           <h3>06.61.37.60.63</h3>
           <h3>quillec.erwan@gmail.com</h3>
+          <p>Nantes</p>
         </div>
       </div>
     </div>

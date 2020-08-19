@@ -27,10 +27,12 @@ export default function About() {
         <img src={portrait} alt='portrait' className='portrait' />
         <h2 className='part-title'>ABOUT ME</h2>
         <p className='description'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ex
-          nihil, natus veritatis animi consectetur aperiam nemo illum!
-          Asperiores, consequatur. Excepturi est enim nostrum non aliquam,
-          dolorum at laborum repudiandae!
+          Issu d’une première formation de graphiste, et après 3 années en tant
+          que <b>responsable d'équipe dans une start-up</b>, je me suis formé au
+          métier de développeur web.
+          <br></br>
+          Gestion de projet agile, UX, UI, <b>développement web</b>, tous ces
+          sujets m'animent, et me donnent envie d'apprendre au quotidien.
         </p>
       </div>
       <div
