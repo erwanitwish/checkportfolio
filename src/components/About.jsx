@@ -32,7 +32,7 @@ export default function About() {
           métier de développeur web.
           <br></br>
           Gestion de projet agile, UX, UI, <b>développement web</b>, tous ces
-          sujets m'animent, et me donnent envie d'apprendre au quotidien.
+          sujets m'animent, et me donnent envie de me dépasser au quotidien.
         </p>
       </div>
       <div

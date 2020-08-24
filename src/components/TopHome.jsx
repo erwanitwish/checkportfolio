@@ -3,7 +3,7 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import image from "../images/Aneta.jpg";
+import image from "../images/home2.jpg";
 
 export default function TopHome() {
   AOS.init();
@@ -21,7 +21,9 @@ export default function TopHome() {
           ERWAN <br />
           QUILLEC
         </h1>
-        <p className='subtitle'>Développeur web et web mobile</p>
+        <p className='subtitle'>
+          Développeur web <br></br> Product Owner
+        </p>
       </div>
       <div className='arrow'>Scroll</div>
     </div>
